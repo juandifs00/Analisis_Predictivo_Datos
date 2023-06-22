@@ -36,9 +36,12 @@ Realización de los distintos trabajos práctico de Análisis Predictivo de Dato
 
 ## Trabajo 3: Clasificación de Imágenes de Aves de India
 
-Este data set contiene 15.000 imágenes de aves comunes de India, las cuales se dividen en 25 categorías distintas (600 imágenes cada categoría). Adicionalmente, cada categoría se ha dividido en 2 grupos donde 550 imágenes pertenecen a `/train` y 50 imágenes pertenencen a `/valid`. Es decir que de las 15.000 imágenes 13.750 son para entrenamiento y 1250 para validacion.
+Se desea realizar una red neuronal que permita clasificar las especies de aves y para ello, utilice la técnica de Transferencia de Aprendizaje (Transfer Learning) para utilizar una red previamente entrenada y desarrollar un nuevo modelo.
 
-Se desea realizar una red neuronal que permita clasificar estas 25 especies de aves y para ello, utilice la técnica de Transferencia de Aprendizaje (Transfer Learning) para utilizar una red previamente entrenada y desarrollar un nuevo modelo.
+Para hacer el entrenamiento, se debe descargar el archivo que contiene las imágenes del siguiente link:
+https://drive.google.com/drive/folders/1F65hb4eVq8MqsCkeuolLTHI8302NsvrI?usp=sharing
+
+Este data set contiene una serie de imágenes de aves comunes de India, las cuales se dividen en ciertas categorías distintas. Adicionalmente, cada categoría se ha dividido en 2 grupos, `/train` y `/valid`. Es decir, un grupo para entrenamiento y otro para validación.
 
 Este archivo contiene la siguiente estructura
 
